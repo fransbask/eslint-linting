@@ -1,6 +1,6 @@
 var aPriceList;
 
-export var setPriceList = (priceList) => {
+export let setPriceList = (priceList) => {
     aPriceList = priceList;
 };
 
