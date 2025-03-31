@@ -4,8 +4,8 @@ export let setPriceList = (priceList) => {
     aPriceList = priceList;
 };
 
-export var getPrice = (itemId, quantity) => {
+export let getPrice = (itemId, quantity) => {
     return 500;
 };
 
-var price = getPrice(); 
+let price = getPrice(); 
