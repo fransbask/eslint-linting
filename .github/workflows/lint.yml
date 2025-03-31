@@ -17,4 +17,5 @@ jobs:
         node-version: '20.17.0'
     - run: npm install
     - run: export PATH="./node_modules/.bin:$PATH"
-    - run: npx eslint .
+    - run: chmod +x ./node_modules/.bin/eslint
+    - run: sudo npx eslint .
